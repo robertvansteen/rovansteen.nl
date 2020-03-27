@@ -1,25 +1,31 @@
-@import './button.css';
-
-/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-/* purgecss end ignore */
 @tailwind utilities;
 
-.hero {
-  width: 100%;
-  color: #333;
-}
+.clip-background {
+  background: theme("colors.black");
+  background: linear-gradient(
+    to right,
+    theme("colors.black"),
+    theme("colors.blue.900")
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-.title {
-  margin: 0;
-  width: 100%;
-  padding-top: 80px;
-  line-height: 1.15;
-  font-size: 48px;
-}
+  .text-white {
+    background: white;
+    background-clip: text;
+    -webkit-text-fill-color: white;
+  }
 
-.title,
-.description {
-  text-align: center;
+  @screen dark {
+    background: theme("colors.white");
+    background: linear-gradient(
+      to right,
+      theme("colors.white"),
+      theme("colors.blue.200")
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }

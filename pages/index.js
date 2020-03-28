@@ -37,7 +37,7 @@ export default () => (
           <p className="text-2xl mt-6">
             I develop products that solve problems for users.
           </p>
-          <div className="bg-accredion text-white p-4 mt-12 rounded-md inline-block">
+          <div className="bg-accredion text-white p-4 mt-12 rounded-md inline-block cursor-default">
             <div className="flex items-center">
               <AccredionIcon />
               <p className="text-lg ml-4">Currently working on Accredion</p>

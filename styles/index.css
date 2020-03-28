@@ -14,10 +14,10 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  .text-white {
-    background: white;
+  .clip-background-revert {
+    background: currentColor;
     background-clip: text;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: currentColor;
   }
 
   @screen dark {

@@ -7,8 +7,13 @@ export default () => (
     <div className="max-w-4xl relative flex w-full">
       <div>
         <h1 className="clip-background text-3xl leading-normal font-bold text-left">
-          <span className="text-white mr-4 inline-block">👋🏻</span>
-          Hey, I'm <span className="text-white">Robert</span>
+          <span className="clip-background-revert text-black dark:text-white mr-4 inline-block">
+            👋🏻
+          </span>
+          Hey, I'm{" "}
+          <span className="clip-background-revert text-black dark:text-white">
+            Robert
+          </span>
           <br />
           Product developer in Amsterdam
         </h1>

@@ -20,7 +20,7 @@ export default () => (
         href="/favicon-16x16.png"
       />
     </Head>
-    <div className="bg-white dark:bg-black text-black dark:text-white min-h-screen flex items-center justify-center">
+    <div className="bg-white dark:bg-black text-black dark:text-white min-h-screen flex items-center justify-center p-6">
       <div className="max-w-4xl relative flex w-full">
         <div>
           <h1 className="clip-background text-3xl leading-normal font-bold text-left">

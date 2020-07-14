@@ -34,21 +34,33 @@ export default () => (
               <dl className="text-xs">
                 <dt className="font-bold">Location</dt>
                 <dd>Amsterdam</dd>
+                <dt className="font-bold mt-2">Nationality</dt>
+                <dd>Dutch</dd>
                 <dt className="font-bold mt-2">Phone</dt>
                 <dd>
                   <a href="tel:+31653265684">+31653265684</a>
                 </dd>
                 <dt className="font-bold mt-2">Email</dt>
                 <dd>
-                  <a href="mailto:hello@rovansteen.nl">hello@rovansteen.nl</a>
+                  <a
+                    href="mailto:hello@rovansteen.nl"
+                    className="hover:underline"
+                  >
+                    hello@rovansteen.nl
+                  </a>
                 </dd>
                 <dt className="font-bold mt-2">Website</dt>
                 <dd>
-                  <a href="https://rovansteen.nl">rovansteen.nl</a>
+                  <a href="https://rovansteen.nl" className="hover:underline">
+                    rovansteen.nl
+                  </a>
                 </dd>
                 <dt className="font-bold mt-2">Github</dt>
                 <dd>
-                  <a href="https://github.com/rovansteen">
+                  <a
+                    href="https://github.com/rovansteen"
+                    className="hover:underline"
+                  >
                     github.com/rovansteen
                   </a>
                 </dd>
@@ -71,52 +83,150 @@ export default () => (
               <div className="text-sm">Hogeschool van Amsterdam</div>
             </div>
             <div className="col-span-3 text-right">
-              <div className="text-sm opacity-50">2012-2017</div>
+              <div className="text-xs opacity-50">2012-2018</div>
+            </div>
+          </div>
+        </section>
+
+        {/* Internships */}
+        <section className="mt-10">
+          <h2 className="text-md font-bold">Internships</h2>
+          <hr className="w-12 bg-black mt-1 mb-3 border border-black" />
+          {/* Studio Stomp */}
+          <div class="space-y-6">
+            <div>
+              <div class="grid grid-gap-4 grid-cols-8">
+                <div className="col-span-5">
+                  <h3 className="text-sm font-bold">Studio Stomp</h3>
+                  <div className="text-sm">Web Developer</div>
+                </div>
+                <div className="col-span-3 text-right">
+                  <div className="text-xs opacity-50">
+                    April 2014 - July 2016
+                  </div>
+                </div>
+              </div>
+              <p class="text-xs mt-4">
+                Worked as a web developer on a WordPress/JavaScript project.
+              </p>
+            </div>
+
+            {/* Scrn */}
+            <div>
+              <div class="grid grid-gap-4 grid-cols-8">
+                <div className="col-span-4">
+                  <h3 className="text-sm font-bold">Scrn</h3>
+                  <div className="text-sm">Front-end Developer</div>
+                </div>
+                <div className="col-span-4 text-right">
+                  <div className="text-xs opacity-50">
+                    September 2017 - January 2017
+                  </div>
+                </div>
+              </div>
+              <p class="text-xs mt-4">
+                Worked on rebuilding the official website of the Eurovision Song
+                Contest with Laravel and React by exchanging data through
+                GraphQL.
+              </p>
             </div>
           </div>
         </section>
 
         {/* Work */}
-        <section class="mt-12">
+        <section className="mt-10">
           <h2 className="text-md font-bold">Work</h2>
           <hr className="w-12 bg-black mt-1 mb-3 border border-black" />
-          {/* Peakfijn */}
-          <div>
-            <div class="grid grid-gap-4 grid-cols-8">
-              <div className="col-span-5">
-                <h3 className="text-sm font-bold">Peakfijn</h3>
-                <div className="text-sm">Full-stack developer</div>
+          <div class="space-y-6">
+            {/* Peakfijn */}
+            <div>
+              <div class="grid grid-gap-4 grid-cols-8">
+                <div className="col-span-4">
+                  <h3 className="text-sm font-bold">Peakfijn</h3>
+                  <div className="text-sm">Full-stack developer</div>
+                </div>
+                <div className="col-span-4 text-right">
+                  <div className="text-xs opacity-50">
+                    October 2014 - January 2016
+                  </div>
+                </div>
               </div>
-              <div className="col-span-3 text-right">
-                <div className="text-sm opacity-50">
-                  October 2014 - January 2016
+              <p class="text-xs mt-4">
+                Worked as full stack developer on projects for various clients
+                including Unilever, Oaky, and Kilroy. <br />
+                Used techniques: JavaScript, PHP, Backbone, React, Redux,
+                Laravel, MySQL, Rest API.
+              </p>
+            </div>
+
+            {/* Scrn */}
+            <div>
+              <div class="grid grid-gap-4 grid-cols-8">
+                <div className="col-span-5">
+                  <h3 className="text-sm font-bold">Scrn</h3>
+                  <div className="text-sm">Lead Developer</div>
+                </div>
+                <div className="col-span-3 text-right">
+                  <div className="text-xs opacity-50">
+                    July 2016 - July 2020
+                  </div>
+                </div>
+              </div>
+              <p class="text-xs mt-4">
+                Developed the official website and intranet of the Eurovision
+                Song Contest. Designed and developed Accredion, a SaaS for
+                events to manage access and accreditation. <br />
+                Used techniques: JavaScript, PHP, Laravel, PostgreSQL, GraphQL,
+                TypeScript, React.
+              </p>
+            </div>
+
+            <div>
+              <div class="grid grid-gap-4 grid-cols-8">
+                <div className="col-span-5">
+                  <h3 className="text-sm font-bold">Passionate People</h3>
+                  <div className="text-sm">Frontend Developer Consultant</div>
+                </div>
+                <div className="col-span-3 text-right">
+                  <div className="text-xs opacity-50">
+                    August 2020 - current
+                  </div>
                 </div>
               </div>
             </div>
-            <p class="text-sm mt-4">
-              Worked as full stack developer on projects for various clients
-              including Unilever, Oaky and Kilroy.
-            </p>
           </div>
+        </section>
 
-          {/* Scrn */}
-          <div>
-            <div class="grid grid-gap-4 grid-cols-8 mt-6">
-              <div className="col-span-5">
-                <h3 className="text-sm font-bold">Scrn</h3>
-                <div className="text-sm">Lead Developer</div>
-              </div>
-              <div className="col-span-3 text-right">
-                <div className="text-sm opacity-50">July 2016 - July 2020</div>
-              </div>
-            </div>
-            <p class="text-sm mt-4">
-              Developed the official website and intranet of the Eurovision Song
-              Contest. Designed and developed Accredion, a SaaS for events to
-              manage their accreditations. Used techniques: Laravel, PostgreSQL,
-              GraphQL, TypeScript, React.
-            </p>
-          </div>
+        <section className="mt-10">
+          <h2 className="text-md font-bold">Languages</h2>
+          <hr className="w-12 bg-black mt-1 mb-3 border border-black" />
+          <ul class="space-y-1 text-sm">
+            <li>Dutch - Native</li>
+            <li>English - Working Professional</li>
+          </ul>
+        </section>
+
+        <section className="mt-10">
+          <h2 className="text-md font-bold">Skills & techniques</h2>
+          <hr className="w-12 bg-black mt-1 mb-3 border border-black" />
+          <ul class="flex flex-wrap -m-1 text-xs">
+            <li class="m-1">JavaScript</li>
+            <li class="m-1">TypeScript</li>
+            <li class="m-1">PHP</li>
+            <li class="m-1">Node.js</li>
+            <li class="m-1">React</li>
+            <li class="m-1">Redux</li>
+            <li class="m-1">Apollo</li>
+            <li class="m-1">Next.js</li>
+            <li class="m-1">CSS</li>
+            <li class="m-1">PostCSS/Sass</li>
+            <li class="m-1">Laravel</li>
+            <li class="m-1">MySQL/PostgreSQL</li>
+            <li class="m-1">GraphQL</li>
+            <li class="m-1">Git</li>
+            <li class="m-1">TDD</li>
+            <li class="m-1">DDD</li>
+          </ul>
         </section>
       </div>
     </div>

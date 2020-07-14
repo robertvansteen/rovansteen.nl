@@ -35,7 +35,8 @@ export default () => (
             Product developer in Amsterdam
           </h1>
           <p className="text-2xl mt-6">
-            I develop products that solve problems for users.
+            I'm passionate about building accessible products that actually
+            solve problems.
           </p>
           <div className="bg-accredion text-white p-4 mt-12 rounded-md inline-block cursor-default">
             <div className="flex items-center">

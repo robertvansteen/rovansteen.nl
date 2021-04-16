@@ -38,12 +38,6 @@ export default () => (
             I'm passionate about building accessible products that actually
             solve problems.
           </p>
-          <div className="bg-accredion text-white p-4 mt-12 rounded-md inline-block cursor-default">
-            <div className="flex items-center">
-              <AccredionIcon />
-              <p className="text-lg ml-4">Currently working on Accredion</p>
-            </div>
-          </div>
           {/* Mail */}
           <div className="mt-8">
             <a

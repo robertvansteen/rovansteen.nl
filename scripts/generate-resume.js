@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 const url = "http://localhost:3000/resume";
 
 (async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
   const page = await browser.newPage();
   await page.setViewport({ width: 2480, height: 3508 });
   await page.goto(url, { waitUntil: "networkidle2" });

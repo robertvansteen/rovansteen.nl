@@ -93,9 +93,9 @@ export default () => (
           <h2 className="text-md font-bold">Internships</h2>
           <hr className="w-12 bg-black mt-1 mb-3 border border-black" />
           {/* Studio Stomp */}
-          <div class="space-y-6">
+          <div className="space-y-6">
             <div>
-              <div class="grid grid-gap-4 grid-cols-8">
+              <div className="grid grid-gap-4 grid-cols-8">
                 <div className="col-span-5">
                   <h3 className="text-sm font-bold">Studio Stomp</h3>
                   <div className="text-sm">Web Developer</div>
@@ -106,14 +106,14 @@ export default () => (
                   </div>
                 </div>
               </div>
-              <p class="text-xs mt-4">
+              <p className="text-xs mt-4">
                 Worked as a web developer on a WordPress/JavaScript project.
               </p>
             </div>
 
             {/* Scrn */}
             <div>
-              <div class="grid grid-gap-4 grid-cols-8">
+              <div className="grid grid-gap-4 grid-cols-8">
                 <div className="col-span-4">
                   <h3 className="text-sm font-bold">Scrn</h3>
                   <div className="text-sm">Front-end Developer</div>
@@ -124,7 +124,7 @@ export default () => (
                   </div>
                 </div>
               </div>
-              <p class="text-xs mt-4">
+              <p className="text-xs mt-4">
                 Worked on rebuilding the official website of the Eurovision Song
                 Contest with Laravel and React by exchanging data through
                 GraphQL.
@@ -137,10 +137,10 @@ export default () => (
         <section className="mt-10">
           <h2 className="text-md font-bold">Work</h2>
           <hr className="w-12 bg-black mt-1 mb-3 border border-black" />
-          <div class="space-y-6">
+          <div className="space-y-6">
             {/* Peakfijn */}
             <div>
-              <div class="grid grid-gap-4 grid-cols-8">
+              <div className="grid grid-gap-4 grid-cols-8">
                 <div className="col-span-4">
                   <h3 className="text-sm font-bold">Peakfijn</h3>
                   <div className="text-sm">Full-stack developer</div>
@@ -151,7 +151,7 @@ export default () => (
                   </div>
                 </div>
               </div>
-              <p class="text-xs mt-4">
+              <p className="text-xs mt-4">
                 Worked as full stack developer on projects for various clients
                 including Unilever, Oaky, and Kilroy. <br />
                 Used techniques: JavaScript, PHP, Backbone, React, Redux,
@@ -161,7 +161,7 @@ export default () => (
 
             {/* Scrn */}
             <div>
-              <div class="grid grid-gap-4 grid-cols-8">
+              <div className="grid grid-gap-4 grid-cols-8">
                 <div className="col-span-5">
                   <h3 className="text-sm font-bold">Scrn</h3>
                   <div className="text-sm">Lead Developer</div>
@@ -172,7 +172,7 @@ export default () => (
                   </div>
                 </div>
               </div>
-              <p class="text-xs mt-4">
+              <p className="text-xs mt-4">
                 Developed the official website and intranet of the Eurovision
                 Song Contest. Designed and developed Accredion, a SaaS for
                 events to manage access and accreditation. <br />
@@ -181,11 +181,12 @@ export default () => (
               </p>
             </div>
 
+            {/* Passionate People */}
             <div>
-              <div class="grid grid-gap-4 grid-cols-8">
+              <div className="grid grid-gap-4 grid-cols-8">
                 <div className="col-span-5">
                   <h3 className="text-sm font-bold">Passionate People</h3>
-                  <div className="text-sm">Frontend Developer Consultant</div>
+                  <div className="text-sm">Senior Full Stack Consultant</div>
                 </div>
                 <div className="col-span-3 text-right">
                   <div className="text-xs opacity-50">
@@ -193,6 +194,27 @@ export default () => (
                   </div>
                 </div>
               </div>
+              <p className="text-xs mt-4">
+                Working as a senior full stack consultant giving consultancy and helping out companies solve complex technical solutions.
+              </p>
+            </div>
+
+            {/* Rodeo */}
+            <div>
+              <div className="grid grid-gap-4 grid-cols-8">
+                <div className="col-span-5">
+                  <h3 className="text-sm font-bold">Rodeo</h3>
+                  <div className="text-sm">Senior Full Stack Engineer</div>
+                </div>
+                <div className="col-span-3 text-right">
+                  <div className="text-xs opacity-50">
+                    August 2020 - current
+                  </div>
+                </div>
+              </div>
+              <p className="text-xs mt-4">
+                Working on Rodeo: a project management tool. Used techniques: NodeJS, React, MongoDB, Postgres.
+              </p>
             </div>
           </div>
         </section>
@@ -200,7 +222,7 @@ export default () => (
         <section className="mt-10">
           <h2 className="text-md font-bold">Languages</h2>
           <hr className="w-12 bg-black mt-1 mb-3 border border-black" />
-          <ul class="space-y-1 text-sm">
+          <ul className="space-y-1 text-sm">
             <li>Dutch - Native</li>
             <li>English - Working Professional</li>
           </ul>
@@ -209,23 +231,23 @@ export default () => (
         <section className="mt-10">
           <h2 className="text-md font-bold">Skills & techniques</h2>
           <hr className="w-12 bg-black mt-1 mb-3 border border-black" />
-          <ul class="flex flex-wrap -m-1 text-xs">
-            <li class="m-1">JavaScript</li>
-            <li class="m-1">TypeScript</li>
-            <li class="m-1">PHP</li>
-            <li class="m-1">Node.js</li>
-            <li class="m-1">React</li>
-            <li class="m-1">Redux</li>
-            <li class="m-1">Apollo</li>
-            <li class="m-1">Next.js</li>
-            <li class="m-1">CSS</li>
-            <li class="m-1">PostCSS/Sass</li>
-            <li class="m-1">Laravel</li>
-            <li class="m-1">MySQL/PostgreSQL</li>
-            <li class="m-1">GraphQL</li>
-            <li class="m-1">Git</li>
-            <li class="m-1">TDD</li>
-            <li class="m-1">DDD</li>
+          <ul className="flex flex-wrap -m-1 text-xs">
+            <li className="m-1">JavaScript</li>
+            <li className="m-1">TypeScript</li>
+            <li className="m-1">PHP</li>
+            <li className="m-1">Node.js</li>
+            <li className="m-1">React</li>
+            <li className="m-1">Redux</li>
+            <li className="m-1">Apollo</li>
+            <li className="m-1">Next.js</li>
+            <li className="m-1">CSS</li>
+            <li className="m-1">PostCSS/Sass</li>
+            <li className="m-1">Laravel</li>
+            <li className="m-1">MySQL/PostgreSQL</li>
+            <li className="m-1">GraphQL</li>
+            <li className="m-1">Git</li>
+            <li className="m-1">TDD</li>
+            <li className="m-1">DDD</li>
           </ul>
         </section>
       </div>

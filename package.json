@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "prebuild": "node ./scripts/generate-resume.js",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "poststart": "node ./scripts/generate-resume.js"
   },
   "dependencies": {
     "next": "^9.2.0",

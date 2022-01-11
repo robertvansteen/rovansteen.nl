@@ -54,10 +54,6 @@ export default () => (
                   <dd>Amsterdam</dd>
                   <dt className="font-bold mt-2">Nationality</dt>
                   <dd>Dutch</dd>
-                  <dt className="font-bold mt-2">Phone</dt>
-                  <dd>
-                    <a href="tel:+31653265684">+31653265684</a>
-                  </dd>
                   <dt className="font-bold mt-2">Email</dt>
                   <dd>
                     <a
